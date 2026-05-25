@@ -1,0 +1,22 @@
+# លាក់ឯកសារ Environment Variables (សំខាន់បំផុត! ការពារកុំឱ្យគេលួច Password Database)
+.env
+.env.*
+
+# លាក់ Virtual Environments (ព្រោះវាមានទំហំធំ ហើយត្រូវដំឡើងថ្មីនៅលើ Server)
+venv/
+env/
+.venv/
+ENV/
+
+# លាក់ឯកសារដែល Python បង្កើតដោយស្វ័យប្រវត្តិ (Compiled files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# លាក់ឯកសារ Logs ផ្សេងៗ
+*.log
+
+# លាក់ឯកសាររបស់កម្មវិធីសរសេរកូដ (IDEs)
+.vscode/
+.idea/
+.DS_Store
