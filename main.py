@@ -7,7 +7,7 @@ from src.controllers.contact_controller import contact_router
 load_dotenv()
 
 app_env = os.getenv('APP_ENV')
-is_local = (app_env == 'local') 
+is_local = (app_env == 'production')
 
 app = FastAPI(
     title='Contact Book API',
